@@ -16,7 +16,6 @@ public class Item_Controller {
         stm.setString(2, item.getName());
         stm.setString(3, item.getBrand());
 
-
         boolean isAdded = stm.executeUpdate() > 0;
 
         return isAdded;
